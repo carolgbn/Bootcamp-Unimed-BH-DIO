@@ -1,0 +1,47 @@
+{
+    "Book": [
+        {
+            "PutRequest": {
+                "Item": {
+                  "Written by": {"S": "Luis Fernando Verissimo"},
+                  "BookTitle": {"S": "As Mentiras que os Homens Contam"},
+                  "Published by": {"S": "Objetiva"},
+                  "Gender": {"S": "Comedy"}
+                }
+            }
+        },
+        {
+          "PutRequest": {
+            "Item": {
+              "Written by": {"S": "Helen Fielding"},
+              "BookTitle": {"S": "Bridget Jones' Diary"},
+              "Published by": {"S": "Penguin Books"},
+              "Gender": {"S": "Romance"}
+                }
+            }
+        },
+
+        {
+          "PutRequest": {
+            "Item": {
+              "Written by": {"S": "Toshikazu Kawaguchi"},
+              "BookTitle": {"S": "Before the Coffee Gets Cold"},
+              "Published by": {"S": "Valentina"},
+              "Gender": {"S": "Romance"}   
+            }
+          }
+        },  
+
+              {
+                "PutRequest": {
+                  "Item": {
+                    "Written by": {"S": "William Shakespeare"},
+             "BookTitle": {"S": "The Tragedy of Hamlet, Prince of Denmarke"},
+            "Published by": {"S": "Matin Claret Ltda"},
+            "Gender": {"S": "Drama"}
+            
+                }
+            }
+        }
+      ]
+}
